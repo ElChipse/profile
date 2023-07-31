@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Red+Hat+Display:wght@300&family=Roboto&display=swap');
+
+body{
+  font-family: Roboto;
+  background-color: #f7f7f7;
+  color: #104F55;
+  padding: 30px;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: Poppins;
+  color: #023B1C;
+}
+
+ul {
+  padding: 3px;
+}
+
+li{
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: #023B1C;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+a:hover{
+  color: #2B645E;
+}
+
+#profile-pic{
+  width: 118px;
+  height: 118px;
+  border-radius: 50%;
+}
+
+.container {
+  background-color: white;
+  padding: 15px;
+  width: 700px;
+  margin: 10px auto;
+  border-radius: 5px;
+  border: 1px dotted #023B1C;
+  box-shadow: 0 0 5px rgba(16,79,85,0.1);
+}
+
+.card {
+  background-color: white;
+  padding: 15px;
+  width: 700px;
+  margin: 10px auto;
+  border-radius: 5px;
+  border: 1px dotted #023B1C;
+  box-shadow: 0 0 5px rgba(16,79,85,0.1);
+}
+
+.btn-green {
+  background-color: #1e3d3878;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.icon {
+  letter-spacing: 10px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+  .card {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+  .card {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+  .card {
+    width: 300px;
+  }
+}
